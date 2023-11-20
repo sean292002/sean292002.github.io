@@ -1,0 +1,19 @@
+.all-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding-top: 30px;
+    margin: 0px auto;
+}
+
+.all-projects-project {
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .all-projects-project {
+        width: calc(100% / 2);
+    }
+}
